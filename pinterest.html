@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b2fb85ee3d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+    <nav>
+        
+        <a href="" class="nav-link-Inicio">Inicio</a>
+        <a href="" class="nav-link-Hoy">Hoy</a>
+        <a href="" class="nav-link-Crear">Crear</a>
+        <div class="logopinterest">
+            <img src="pinterestlogo.png" alt="pinterestlogo" width="50" height="50">
+    </nav>
+<div class="searchbox">
+        <input type="text" name="" placeholder="escribe para buscar">
+        <a class="searchboton" href="#"></a>
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div class="grid-container">
+        <img class="fotos" src="https://picsum.photos/200/300?random=1"  alt="">
+        <img class="fotos" src="https://picsum.photos/300/400?random=2"  alt="">
+        <img class="fotos" src="https://picsum.photos/100/200?random=3"  alt="">
+        <img class="fotos" src="https://picsum.photos/250/350?random=4"  alt="">
+        <img class="fotos" src="https://picsum.photos/75/180?random=5"  alt="">
+        <img class="fotos" src="https://picsum.photos/200/300?random=6"  alt="">
+        <img class="fotos" src="https://picsum.photos/300/400?random=7"  alt="">
+        <img class="fotos" src="https://picsum.photos/100/200?random=8"  alt="">
+        <img class="fotos" src="https://picsum.photos/250/350?random=9"  alt="">
+        <img class="fotos" src="https://picsum.photos/75/180?random=10"  alt="">
+        <img class="fotos" src="https://picsum.photos/200/300?random=11"  alt="">
+        <img class="fotos" src="https://picsum.photos/300/400?random=12"  alt="">
+        <img class="fotos" src="https://picsum.photos/100/200?random=13"  alt="">
+        <img class="fotos" src="https://picsum.photos/250/350?random=14"  alt="">
+        <img class="fotos" src="https://picsum.photos/75/180?random=15"  alt="">
+        <img class="fotos" src="https://picsum.photos/200/300?random=16"  alt="">
+        <img class="fotos" src="https://picsum.photos/300/400?random=17"  alt="">
+        <img class="fotos" src="https://picsum.photos/100/200?random=18"  alt="">
+        <img class="fotos" src="https://picsum.photos/250/350?random=19"  alt="">
+        <img class="fotos" src="https://picsum.photos/75/180?random=20"  alt="">
+        <img class="fotos" src="https://picsum.photos/200/300?random=21"  alt="">
+        <img class="fotos" src="https://picsum.photos/300/400?random=22"  alt="">
+        <img class="fotos" src="https://picsum.photos/100/200?random=23"  alt="">
+        <img class="fotos" src="https://picsum.photos/250/350?random=24"  alt="">
+        <img class="fotos" src="https://picsum.photos/75/180?random=25"  alt="">
+        <img class="fotos" src="https://picsum.photos/200/300?random=26"  alt="">
+        <img class="fotos" src="https://picsum.photos/300/400?random=27"  alt="">
+        <img class="fotos" src="https://picsum.photos/100/200?random=28"  alt="">
+        <img class="fotos" src="https://picsum.photos/250/350?random=29"  alt="">
+        <img class="fotos" src="https://picsum.photos/75/180?random=30"  alt="">
+           
+</div>
+</div>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+<script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.js"></script>
+<script>
+    var elem = document.querySelector('.grid-container');
+    imagesLoaded( elem, ( )=>{
+        var msnry = new Masonry( elem, {
+  // options
+  itemSelector: '.fotos',
+  columnWidth: 230,
+});
+    } )
+
+</script>
+</body>
+</html>
